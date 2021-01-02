@@ -1,0 +1,19 @@
+.div1{
+	width: 200px;
+	background:tomato;
+	font-family:arial black;
+	height: 200px;
+	color: white;
+	display: grid;
+	place-content: center;
+	animation-name:aradhan;
+	animation-duration:1s;
+	animation-iteration-count:1;
+	animation-direction:alternate;
+	
+}
+
+@keyframes aradhan{
+		from{margin-top:1100px; opacity:0;}
+		to{margin-top: 0px; opacity:1;};
+}
